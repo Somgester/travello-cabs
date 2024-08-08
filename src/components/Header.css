@@ -28,10 +28,13 @@
 }
 
 .header-contents h2 {
-    font-weight: 500;
+    font-weight: 800;
     font-size: max(2.5vw, 10px);
     animation: fadeIn 3s;
-    background: linear-gradient(to right, indigo, violet, yellow, blue, green, orange, red);
+    /* background: linear-gradient(to right, indigo, violet, yellow, blue, green, orange, red); */
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    /* color: greenyellow; */
+    /* background-image: linear-gradient(to right, #22bc14, #25c89f); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -41,17 +44,17 @@
     animation: fadeIn 3s;
 }
 
-.sidecontent {
+/* .sidecontent {
     position: absolute;
     right: 0;
     width: 30%;
-}
+} */
 
 @media screen and (max-width: 600px) {
-    .sidecontent {
+    /* .sidecontent {
         position: static;
         width: 100%;
-    }
+    } */
 }
 
 @media (max-width:1050px) {

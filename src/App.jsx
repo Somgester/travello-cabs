@@ -16,8 +16,9 @@ function App() {
           <Route path="/" element={<Header />} />
           <Route path="/booking" element={<BookingForm />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/footer" element={<Footer />} />
+          {/* <Route path="/footer" element={<Footer />} /> */}
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
