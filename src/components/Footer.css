@@ -18,8 +18,9 @@
 }
 
 .footer-content-left img{
-    height: 100px;
-    width: 300px;
+    padding: auto;
+    height: 80px;
+    width: 500px;
     /* margin-top: 30px; */
 }
 
